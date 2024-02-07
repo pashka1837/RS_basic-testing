@@ -1,4 +1,3 @@
-// Uncomment the code below and write your tests
 import lodash from 'lodash';
 
 import {
@@ -8,15 +7,6 @@ import {
   BankAccount,
   SynchronizationFailedError,
 } from '.';
-
-// jest.mock('lodash', () => {
-//   const originalModule = jest.requireActual('lodash');
-//   return {
-//     __esModule: true,
-//     ...originalModule,
-//     random: jest.fn(() => 100),
-//   };
-// });
 
 describe('BankAccount', () => {
   let myAcc = getBankAccount(200);
